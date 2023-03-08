@@ -109,7 +109,7 @@ export default function LandingPage() {
         <Flex justifyContent='space-evenly' w='100%'>
           <div style={{ height: '100%' }}>
             <Text fontFamily='inter' fontSize='5xl' maxW='40vw' fontWeight='bold'>
-              Fans are currently supporting <span style={{ color: 'rgba(0, 133, 171, 1)' }}>{creators}</span> creators with <span style={{ color: 'rgba(0, 133, 171, 1)' }}>${amount}</span> of USDC
+              Fans are currently supporting <span style={{ color: 'rgba(0, 133, 171, 1)' }}>{creators}</span> creators thanks <span style={{ color: 'rgba(0, 133, 171, 1)' }}>${amount}</span> to whisbe and Jeff
             </Text>
           </div>
           <Image src='Raindrop.svg' maxH='250px' />
@@ -406,9 +406,9 @@ export default function LandingPage() {
         //backgroundPosition='bottom'
         //backgroundRepeat='no-repeat'
         >
-          <Image src='Raindrops.png' position='absolute' left='120px' maxH='400px' />
+          
           <Flex flexDirection='column' alignItems='center'>
-            <Text fontSize='4xl' color='white' mb='20px' maxW='60%' align='center'>Join hundreds of other creators on Raindrop</Text>
+            <Text fontSize='4xl' color='white' mb='20px' maxW='60%' align='center'>Join hundreds of other creators on DRM</Text>
             <Button w='50%' borderRadius='100px' mb='15px' fontSize='3xl' py='10px' h='auto' color='brand.500' colorScheme='brandLight' fontWeight='normal'>Support Creators</Button>
             <Button w='50%' borderRadius='100px' fontSize='3xl' py='10px' h='auto' fontWeight='normal' colorScheme='brand.500' border='3px solid rgba(209, 241, 238, 1)' color='rgba(209, 241, 238, 1)' >Contact Us</Button>
           </Flex>

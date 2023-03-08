@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <Flex p='10px 30px 0 30px' align='center' w='100%'>
-            <Image src='/HeaderLogo.svg' maxH='120px' />
+          
             <Spacer />
             {/*<ConnectButton chainStatus='icon' accountStatus='address' showBalance={false} />*/}
             <Button colorScheme='brand' borderRadius='70px' px='40px' onClick={() => navigate('/app')}>Enter App</Button>
