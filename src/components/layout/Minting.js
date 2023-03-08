@@ -15,7 +15,7 @@ const Minting = ({ grantingKey = false }) => {
             backgroundColor='white'
             zIndex={5}
         >
-            <Image src='/Logo.svg' maxW='30%' left='20px' top='20px' position='absolute' />
+            
             <Image src='/minting.gif' maxW='180px' />
             {grantingKey ?
                 <Text fontWeight='bold' fontSize='3xl' mt='20px' maxW='500px' align='center'>Please grant yourself an Unlock key</Text>

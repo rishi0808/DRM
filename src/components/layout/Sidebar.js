@@ -91,7 +91,7 @@ const Sidebar = ({ setCreatingPost }) => {
 
     return (
         <Flex position='fixed' overflow='hidden' flexDirection='column' alignItems='center' h='100vh' minW='250px' maxW='250px' borderRight='1px solid' borderColor='brand.400'>
-            <Image src='/Logo.svg' maxW='30%' m='20px' cursor='pointer' alignSelf='flex-start' />
+          
             <Flex flexDirection='column' w='100%'>
                 <Flex alignItems='center' onClick={handleHome} color={location.pathname == '/app' ? 'brand.500' : '#8F9BBA'} mt='30px' mx='25px' cursor='pointer' w='80%' pr='auto' borderRight='3px solid' borderColor={location.pathname == '/app' ? 'brand.500' : 'white'}>
                     <HomeIcon color='inherit' boxSize={6} />

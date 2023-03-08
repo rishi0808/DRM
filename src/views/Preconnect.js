@@ -18,7 +18,7 @@ const Preconnect = () => {
     return (
         <Flex alignItems='center' flexDirection='column' justifyContent='center' h='100vh' w='100vw' position='relative'>
 
-            <Image src='/Logo.svg' maxW='30%' left='20px' top='20px' position='absolute' />
+          
 
             {!connecting && //Not connecting to orbis (No previous session)
                 <Flex alignItems='center' flexDirection='column'>
